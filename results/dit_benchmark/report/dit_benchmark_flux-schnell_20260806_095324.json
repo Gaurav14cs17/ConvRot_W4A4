@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-08-06T09:53:24.661168",
+  "model": "flux-schnell",
+  "architecture": "DiT (Diffusion Transformer)",
+  "gpu": "NVIDIA H200",
+  "gpu_vram_gb": 139.80267333984375,
+  "torch_version": "2.8.0+cu128",
+  "num_images": 3,
+  "num_steps": 4,
+  "group_size": 256,
+  "methods": [
+    {
+      "method": "bf16",
+      "model_size_mb": 0,
+      "peak_memory_gb": 0,
+      "avg_latency_sec": 0,
+      "throughput_img_per_sec": 0,
+      "quantize_time_sec": 0,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 0.0,
+      "ssim_vs_bf16": 0.0,
+      "lpips_vs_bf16": -1.0,
+      "images": [],
+      "error": "ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed."
+    },
+    {
+      "method": "torchao-int8wo",
+      "model_size_mb": 0,
+      "peak_memory_gb": 0,
+      "avg_latency_sec": 0,
+      "throughput_img_per_sec": 0,
+      "quantize_time_sec": 0,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 0.0,
+      "ssim_vs_bf16": 0.0,
+      "lpips_vs_bf16": -1.0,
+      "images": [],
+      "error": "ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed."
+    },
+    {
+      "method": "torchao-int4wo",
+      "model_size_mb": 0,
+      "peak_memory_gb": 0,
+      "avg_latency_sec": 0,
+      "throughput_img_per_sec": 0,
+      "quantize_time_sec": 0,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 0.0,
+      "ssim_vs_bf16": 0.0,
+      "lpips_vs_bf16": -1.0,
+      "images": [],
+      "error": "ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed."
+    },
+    {
+      "method": "convrot-w8a8",
+      "model_size_mb": 0,
+      "peak_memory_gb": 0,
+      "avg_latency_sec": 0,
+      "throughput_img_per_sec": 0,
+      "quantize_time_sec": 0,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 0.0,
+      "ssim_vs_bf16": 0.0,
+      "lpips_vs_bf16": -1.0,
+      "images": [],
+      "error": "ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed."
+    },
+    {
+      "method": "convrot-w4a4-mixed",
+      "model_size_mb": 0,
+      "peak_memory_gb": 0,
+      "avg_latency_sec": 0,
+      "throughput_img_per_sec": 0,
+      "quantize_time_sec": 0,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 0.0,
+      "ssim_vs_bf16": 0.0,
+      "lpips_vs_bf16": -1.0,
+      "images": [],
+      "error": "ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed."
+    }
+  ]
+}

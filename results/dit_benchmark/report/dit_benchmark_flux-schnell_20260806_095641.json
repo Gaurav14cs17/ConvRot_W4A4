@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-08-06T09:56:41.755137",
+  "model": "flux-schnell",
+  "architecture": "DiT (Diffusion Transformer)",
+  "gpu": "NVIDIA H200",
+  "gpu_vram_gb": 139.80267333984375,
+  "torch_version": "2.8.0+cu128",
+  "num_images": 3,
+  "num_steps": 4,
+  "group_size": 256,
+  "methods": [
+    {
+      "method": "bf16",
+      "model_size_mb": 22680.623168945312,
+      "peak_memory_gb": 33.83110857009888,
+      "avg_latency_sec": 1.008968194325765,
+      "throughput_img_per_sec": 0.9911115192964454,
+      "quantize_time_sec": 4.76837158203125e-07,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 0.0,
+      "ssim_vs_bf16": 0.0,
+      "lpips_vs_bf16": -1.0,
+      "images": [
+        "results/dit_benchmark/images/flux-schnell/bf16_000.png",
+        "results/dit_benchmark/images/flux-schnell/bf16_001.png",
+        "results/dit_benchmark/images/flux-schnell/bf16_002.png"
+      ],
+      "error": ""
+    },
+    {
+      "method": "torchao-int8wo",
+      "model_size_mb": 22680.623168945312,
+      "peak_memory_gb": 22.820420742034912,
+      "avg_latency_sec": 1.2804988225301106,
+      "throughput_img_per_sec": 0.7809456614916062,
+      "quantize_time_sec": 0.2068328857421875,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 29.15501827924183,
+      "ssim_vs_bf16": 0.9846010199491086,
+      "lpips_vs_bf16": 0.0565617581208547,
+      "images": [
+        "results/dit_benchmark/images/flux-schnell/torchao-int8wo_000.png",
+        "results/dit_benchmark/images/flux-schnell/torchao-int8wo_001.png",
+        "results/dit_benchmark/images/flux-schnell/torchao-int8wo_002.png"
+      ],
+      "error": ""
+    },
+    {
+      "method": "torchao-int4wo",
+      "model_size_mb": 22680.623168945312,
+      "peak_memory_gb": 17.646299839019775,
+      "avg_latency_sec": 8.820655028025309,
+      "throughput_img_per_sec": 0.11337026522664852,
+      "quantize_time_sec": 0.6384923458099365,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 21.482052453406954,
+      "ssim_vs_bf16": 0.9099111021256201,
+      "lpips_vs_bf16": 0.2190773288408915,
+      "images": [
+        "results/dit_benchmark/images/flux-schnell/torchao-int4wo_000.png",
+        "results/dit_benchmark/images/flux-schnell/torchao-int4wo_001.png",
+        "results/dit_benchmark/images/flux-schnell/torchao-int4wo_002.png"
+      ],
+      "error": ""
+    },
+    {
+      "method": "convrot-w8a8",
+      "model_size_mb": 11466.498291015625,
+      "peak_memory_gb": 22.911065101623535,
+      "avg_latency_sec": 1.977596124013265,
+      "throughput_img_per_sec": 0.5056644214950395,
+      "quantize_time_sec": 0.21572256088256836,
+      "num_layers_quantized": 498,
+      "psnr_vs_bf16": 29.029343875303425,
+      "ssim_vs_bf16": 0.9845875402687697,
+      "lpips_vs_bf16": 0.06183810283740362,
+      "images": [
+        "results/dit_benchmark/images/flux-schnell/convrot-w8a8_000.png",
+        "results/dit_benchmark/images/flux-schnell/convrot-w8a8_001.png",
+        "results/dit_benchmark/images/flux-schnell/convrot-w8a8_002.png"
+      ],
+      "error": ""
+    },
+    {
+      "method": "convrot-w4a4-mixed",
+      "model_size_mb": 11625.758911132812,
+      "peak_memory_gb": 23.096621990203857,
+      "avg_latency_sec": 1.9848390420277913,
+      "throughput_img_per_sec": 0.5038191907885688,
+      "quantize_time_sec": 0.21984267234802246,
+      "num_layers_quantized": 498,
+      "psnr_vs_bf16": 17.92746609302031,
+      "ssim_vs_bf16": 0.8217475642890267,
+      "lpips_vs_bf16": 0.3608885357777278,
+      "images": [
+        "results/dit_benchmark/images/flux-schnell/convrot-w4a4-mixed_000.png",
+        "results/dit_benchmark/images/flux-schnell/convrot-w4a4-mixed_001.png",
+        "results/dit_benchmark/images/flux-schnell/convrot-w4a4-mixed_002.png"
+      ],
+      "error": ""
+    }
+  ]
+}

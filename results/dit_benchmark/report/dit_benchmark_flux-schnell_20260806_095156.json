@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-08-06T09:51:56.034599",
+  "model": "flux-schnell",
+  "architecture": "DiT (Diffusion Transformer)",
+  "gpu": "NVIDIA H200",
+  "gpu_vram_gb": 139.80267333984375,
+  "torch_version": "2.8.0+cu128",
+  "num_images": 3,
+  "num_steps": 4,
+  "group_size": 256,
+  "methods": [
+    {
+      "method": "bf16",
+      "model_size_mb": 0,
+      "peak_memory_gb": 0,
+      "avg_latency_sec": 0,
+      "throughput_img_per_sec": 0,
+      "quantize_time_sec": 0,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 0.0,
+      "ssim_vs_bf16": 0.0,
+      "lpips_vs_bf16": -1.0,
+      "images": [],
+      "error": "GatedRepoError: 403 Client Error. (Request ID: Root=1-6a74593a-3df5a85076a9035230b47c04;bb6d4420-39fe-4a66-a967-ba73a851637e)\n\nCannot access gated repo for url https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/model_index.json.\nAccess to model black-forest-labs/FLUX.1-schnell is restricted and you are not in the authorized list. Visit https://huggingface.co/black-forest-labs/FLUX.1-schnell to ask for access."
+    },
+    {
+      "method": "torchao-int8wo",
+      "model_size_mb": 0,
+      "peak_memory_gb": 0,
+      "avg_latency_sec": 0,
+      "throughput_img_per_sec": 0,
+      "quantize_time_sec": 0,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 0.0,
+      "ssim_vs_bf16": 0.0,
+      "lpips_vs_bf16": -1.0,
+      "images": [],
+      "error": "GatedRepoError: 403 Client Error. (Request ID: Root=1-6a74593b-306c01323f03ea4b14a1ae7e;11ce119e-b9e7-49b9-9156-d23086927d4a)\n\nCannot access gated repo for url https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/model_index.json.\nAccess to model black-forest-labs/FLUX.1-schnell is restricted and you are not in the authorized list. Visit https://huggingface.co/black-forest-labs/FLUX.1-schnell to ask for access."
+    },
+    {
+      "method": "torchao-int4wo",
+      "model_size_mb": 0,
+      "peak_memory_gb": 0,
+      "avg_latency_sec": 0,
+      "throughput_img_per_sec": 0,
+      "quantize_time_sec": 0,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 0.0,
+      "ssim_vs_bf16": 0.0,
+      "lpips_vs_bf16": -1.0,
+      "images": [],
+      "error": "GatedRepoError: 403 Client Error. (Request ID: Root=1-6a74593b-6125cddb6c62842415a49344;ff250ede-3464-4f1b-8ca7-ea84b3a7654e)\n\nCannot access gated repo for url https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/model_index.json.\nAccess to model black-forest-labs/FLUX.1-schnell is restricted and you are not in the authorized list. Visit https://huggingface.co/black-forest-labs/FLUX.1-schnell to ask for access."
+    },
+    {
+      "method": "convrot-w8a8",
+      "model_size_mb": 0,
+      "peak_memory_gb": 0,
+      "avg_latency_sec": 0,
+      "throughput_img_per_sec": 0,
+      "quantize_time_sec": 0,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 0.0,
+      "ssim_vs_bf16": 0.0,
+      "lpips_vs_bf16": -1.0,
+      "images": [],
+      "error": "GatedRepoError: 403 Client Error. (Request ID: Root=1-6a74593b-7f17d2ff0094c46352e77d7f;f0df6f4b-d6fe-40dd-a3fc-b7558fcbe454)\n\nCannot access gated repo for url https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/model_index.json.\nAccess to model black-forest-labs/FLUX.1-schnell is restricted and you are not in the authorized list. Visit https://huggingface.co/black-forest-labs/FLUX.1-schnell to ask for access."
+    },
+    {
+      "method": "convrot-w4a4-mixed",
+      "model_size_mb": 0,
+      "peak_memory_gb": 0,
+      "avg_latency_sec": 0,
+      "throughput_img_per_sec": 0,
+      "quantize_time_sec": 0,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 0.0,
+      "ssim_vs_bf16": 0.0,
+      "lpips_vs_bf16": -1.0,
+      "images": [],
+      "error": "GatedRepoError: 403 Client Error. (Request ID: Root=1-6a74593b-3245c22469ba9c42259ad0f0;56feb904-7aa6-4865-87f3-be5470f92202)\n\nCannot access gated repo for url https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/model_index.json.\nAccess to model black-forest-labs/FLUX.1-schnell is restricted and you are not in the authorized list. Visit https://huggingface.co/black-forest-labs/FLUX.1-schnell to ask for access."
+    }
+  ]
+}

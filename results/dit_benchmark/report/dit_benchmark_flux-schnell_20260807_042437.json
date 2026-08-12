@@ -1,0 +1,121 @@
+{
+  "timestamp": "2026-08-07T04:24:37.865549",
+  "model": "flux-schnell",
+  "architecture": "DiT (Diffusion Transformer)",
+  "gpu": "NVIDIA H200",
+  "gpu_vram_gb": 139.80267333984375,
+  "torch_version": "2.8.0+cu128",
+  "num_images": 3,
+  "num_steps": 4,
+  "group_size": 256,
+  "methods": [
+    {
+      "method": "bf16",
+      "model_size_mb": 22680.623168945312,
+      "peak_memory_gb": 33.83110857009888,
+      "avg_latency_sec": 1.0115446249643962,
+      "throughput_img_per_sec": 0.9885871323128206,
+      "quantize_time_sec": 4.76837158203125e-07,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 0.0,
+      "ssim_vs_bf16": 0.0,
+      "lpips_vs_bf16": -1.0,
+      "images": [
+        "results/dit_benchmark/images/flux-schnell/bf16_000.png",
+        "results/dit_benchmark/images/flux-schnell/bf16_001.png",
+        "results/dit_benchmark/images/flux-schnell/bf16_002.png"
+      ],
+      "error": ""
+    },
+    {
+      "method": "torchao-fp8wo",
+      "model_size_mb": 22680.623168945312,
+      "peak_memory_gb": 22.79762363433838,
+      "avg_latency_sec": 1.3127649625142415,
+      "throughput_img_per_sec": 0.7617509825100558,
+      "quantize_time_sec": 0.23645353317260742,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 26.876906592311524,
+      "ssim_vs_bf16": 0.9750933146822914,
+      "lpips_vs_bf16": 0.0762890155116717,
+      "images": [
+        "results/dit_benchmark/images/flux-schnell/torchao-fp8wo_000.png",
+        "results/dit_benchmark/images/flux-schnell/torchao-fp8wo_001.png",
+        "results/dit_benchmark/images/flux-schnell/torchao-fp8wo_002.png"
+      ],
+      "error": ""
+    },
+    {
+      "method": "torchao-int8wo",
+      "model_size_mb": 22680.623168945312,
+      "peak_memory_gb": 22.820420742034912,
+      "avg_latency_sec": 1.2937494119008381,
+      "throughput_img_per_sec": 0.7729472112615321,
+      "quantize_time_sec": 0.19527769088745117,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 29.15501827924183,
+      "ssim_vs_bf16": 0.9846010199491086,
+      "lpips_vs_bf16": 0.0565617581208547,
+      "images": [
+        "results/dit_benchmark/images/flux-schnell/torchao-int8wo_000.png",
+        "results/dit_benchmark/images/flux-schnell/torchao-int8wo_001.png",
+        "results/dit_benchmark/images/flux-schnell/torchao-int8wo_002.png"
+      ],
+      "error": ""
+    },
+    {
+      "method": "torchao-int4wo",
+      "model_size_mb": 22680.623168945312,
+      "peak_memory_gb": 17.647032260894775,
+      "avg_latency_sec": 8.822960217793783,
+      "throughput_img_per_sec": 0.11334064478532287,
+      "quantize_time_sec": 0.310819149017334,
+      "num_layers_quantized": 0,
+      "psnr_vs_bf16": 21.482052453406954,
+      "ssim_vs_bf16": 0.9099111021256201,
+      "lpips_vs_bf16": 0.2190773288408915,
+      "images": [
+        "results/dit_benchmark/images/flux-schnell/torchao-int4wo_000.png",
+        "results/dit_benchmark/images/flux-schnell/torchao-int4wo_001.png",
+        "results/dit_benchmark/images/flux-schnell/torchao-int4wo_002.png"
+      ],
+      "error": ""
+    },
+    {
+      "method": "convrot-w8a8",
+      "model_size_mb": 11499.468994140625,
+      "peak_memory_gb": 22.945460319519043,
+      "avg_latency_sec": 2.1580257415771484,
+      "throughput_img_per_sec": 0.46338650217822275,
+      "quantize_time_sec": 0.24959897994995117,
+      "num_layers_quantized": 493,
+      "psnr_vs_bf16": 29.074827193576443,
+      "ssim_vs_bf16": 0.9846309796046127,
+      "lpips_vs_bf16": 0.06128260244925817,
+      "images": [
+        "results/dit_benchmark/images/flux-schnell/convrot-w8a8_000.png",
+        "results/dit_benchmark/images/flux-schnell/convrot-w8a8_001.png",
+        "results/dit_benchmark/images/flux-schnell/convrot-w8a8_002.png"
+      ],
+      "error": ""
+    },
+    {
+      "method": "convrot-w4a4-mixed",
+      "model_size_mb": 6406.6495361328125,
+      "peak_memory_gb": 18.00007963180542,
+      "avg_latency_sec": 2.6363165378570557,
+      "throughput_img_per_sec": 0.37931712130928535,
+      "quantize_time_sec": 0.39687108993530273,
+      "num_layers_quantized": 493,
+      "psnr_vs_bf16": 18.46502328406087,
+      "ssim_vs_bf16": 0.8279792620440829,
+      "lpips_vs_bf16": 0.32059749960899353,
+      "images": [
+        "results/dit_benchmark/images/flux-schnell/convrot-w4a4-mixed_000.png",
+        "results/dit_benchmark/images/flux-schnell/convrot-w4a4-mixed_001.png",
+        "results/dit_benchmark/images/flux-schnell/convrot-w4a4-mixed_002.png"
+      ],
+      "error": ""
+    }
+  ]
+}
