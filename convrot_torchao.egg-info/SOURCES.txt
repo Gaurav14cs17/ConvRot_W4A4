@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+convrot/__init__.py
+convrot/conv_linear.py
+convrot/convrot.py
+convrot/hadamard.py
+convrot/quantize.py
+convrot_torchao.egg-info/PKG-INFO
+convrot_torchao.egg-info/SOURCES.txt
+convrot_torchao.egg-info/dependency_links.txt
+convrot_torchao.egg-info/requires.txt
+convrot_torchao.egg-info/top_level.txt
+tests/__init__.py
+tests/test_convrot.py
+tests/test_hadamard.py
+tests/test_quantize_api.py

@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: convrot-torchao
+Version: 0.1.0
+Summary: ConvRot: Rotation-Based Plug-and-Play 4-bit Quantization for Diffusion Transformers
+Home-page: https://github.com/YOUR_USERNAME/convrot-torchao
+Author: 
+Requires-Python: >=3.10
+Requires-Dist: torch>=2.4.0
+Requires-Dist: numpy>=1.24
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: torchao>=0.8.0; extra == "dev"
+Provides-Extra: flux
+Requires-Dist: diffusers>=0.30.0; extra == "flux"
+Requires-Dist: transformers>=4.40.0; extra == "flux"
+Requires-Dist: accelerate>=0.30.0; extra == "flux"
+Provides-Extra: eval
+Requires-Dist: torchmetrics>=1.0; extra == "eval"
+Requires-Dist: lpips>=0.1; extra == "eval"
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

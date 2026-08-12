@@ -1,0 +1,14 @@
+torch>=2.4.0
+torchao>=0.8.0
+pytest>=7.0
+numpy>=1.24
+Pillow>=9.0
+
+# Optional: for diffusion model examples
+# diffusers>=0.30.0
+# transformers>=4.40.0
+# accelerate>=0.30.0
+
+# Optional: for evaluation metrics
+# lpips>=0.1
+# torchmetrics>=1.0
