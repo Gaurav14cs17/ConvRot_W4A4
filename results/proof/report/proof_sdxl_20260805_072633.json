@@ -1,0 +1,128 @@
+{
+  "timestamp": "2026-08-05T07:26:33.664371",
+  "model_name": "sdxl",
+  "gpu_name": "NVIDIA H200",
+  "gpu_vram_gb": 139.80267333984375,
+  "torch_version": "2.8.0+cu128",
+  "num_images": 3,
+  "num_steps": 20,
+  "group_size": 64,
+  "precisions_tested": [
+    "bf16",
+    "w8a8",
+    "w4a4"
+  ],
+  "quality_metrics": [
+    {
+      "precision": "w8a8",
+      "avg_psnr": 29.558516060940878,
+      "avg_ssim": 0.9643275276444858,
+      "avg_lpips": 0.06133998899410168,
+      "num_images": 3
+    },
+    {
+      "precision": "w4a4",
+      "avg_psnr": 19.175239447854096,
+      "avg_ssim": 0.7745115715429755,
+      "avg_lpips": 0.34522266189257306,
+      "num_images": 3
+    }
+  ],
+  "performance_metrics": [
+    {
+      "precision": "bf16",
+      "model_size_mb": 4897.0483474731445,
+      "avg_gen_time_sec": 1.5526004632314045,
+      "speedup_vs_bf16": 1.0,
+      "memory_reduction_vs_bf16": 1.0
+    },
+    {
+      "precision": "w8a8",
+      "model_size_mb": 2770.620491027832,
+      "avg_gen_time_sec": 7.735427220662435,
+      "speedup_vs_bf16": 0.20071295598052893,
+      "memory_reduction_vs_bf16": 1.7674915649152874
+    },
+    {
+      "precision": "w4a4",
+      "model_size_mb": 2801.4987869262695,
+      "avg_gen_time_sec": 7.669023354848226,
+      "speedup_vs_bf16": 0.2024508716940961,
+      "memory_reduction_vs_bf16": 1.7480101616770845
+    }
+  ],
+  "image_results": [
+    {
+      "prompt_idx": 0,
+      "prompt": "A compact green circuit board featuring a Raspberry Pi logo, labeled \"Raspberry Pi 4 Model B,\" with Ethernet, USB, and GPIO connectors, along with various electronic components.",
+      "precision": "bf16",
+      "group_size": 64,
+      "gen_time_sec": 1.8972804546356201,
+      "image_path": "results/proof/images/sdxl/bf16_000.png"
+    },
+    {
+      "prompt_idx": 1,
+      "prompt": "A bottle labeled \"WHISTLEPIG\" featuring \"SMOKED BARREL-AGED RYE\" sits alongside two clear whiskey glasses, showcasing a refined presentation of the spirit.",
+      "precision": "bf16",
+      "group_size": 64,
+      "gen_time_sec": 1.3913965225219727,
+      "image_path": "results/proof/images/sdxl/bf16_001.png"
+    },
+    {
+      "prompt_idx": 2,
+      "prompt": "A silhouette of an airport featuring control towers, cranes, and a terminal building against an orange sunset, with a road sign reading \"TOWER!\" pointing towards the structures.",
+      "precision": "bf16",
+      "group_size": 64,
+      "gen_time_sec": 1.369124412536621,
+      "image_path": "results/proof/images/sdxl/bf16_002.png"
+    },
+    {
+      "prompt_idx": 0,
+      "prompt": "A compact green circuit board featuring a Raspberry Pi logo, labeled \"Raspberry Pi 4 Model B,\" with Ethernet, USB, and GPIO connectors, along with various electronic components.",
+      "precision": "w8a8",
+      "group_size": 64,
+      "gen_time_sec": 7.494625806808472,
+      "image_path": "results/proof/images/sdxl/w8a8_000.png"
+    },
+    {
+      "prompt_idx": 1,
+      "prompt": "A bottle labeled \"WHISTLEPIG\" featuring \"SMOKED BARREL-AGED RYE\" sits alongside two clear whiskey glasses, showcasing a refined presentation of the spirit.",
+      "precision": "w8a8",
+      "group_size": 64,
+      "gen_time_sec": 7.794667720794678,
+      "image_path": "results/proof/images/sdxl/w8a8_001.png"
+    },
+    {
+      "prompt_idx": 2,
+      "prompt": "A silhouette of an airport featuring control towers, cranes, and a terminal building against an orange sunset, with a road sign reading \"TOWER!\" pointing towards the structures.",
+      "precision": "w8a8",
+      "group_size": 64,
+      "gen_time_sec": 7.916988134384155,
+      "image_path": "results/proof/images/sdxl/w8a8_002.png"
+    },
+    {
+      "prompt_idx": 0,
+      "prompt": "A compact green circuit board featuring a Raspberry Pi logo, labeled \"Raspberry Pi 4 Model B,\" with Ethernet, USB, and GPIO connectors, along with various electronic components.",
+      "precision": "w4a4",
+      "group_size": 64,
+      "gen_time_sec": 7.559476137161255,
+      "image_path": "results/proof/images/sdxl/w4a4_000.png"
+    },
+    {
+      "prompt_idx": 1,
+      "prompt": "A bottle labeled \"WHISTLEPIG\" featuring \"SMOKED BARREL-AGED RYE\" sits alongside two clear whiskey glasses, showcasing a refined presentation of the spirit.",
+      "precision": "w4a4",
+      "group_size": 64,
+      "gen_time_sec": 7.547787427902222,
+      "image_path": "results/proof/images/sdxl/w4a4_001.png"
+    },
+    {
+      "prompt_idx": 2,
+      "prompt": "A silhouette of an airport featuring control towers, cranes, and a terminal building against an orange sunset, with a road sign reading \"TOWER!\" pointing towards the structures.",
+      "precision": "w4a4",
+      "group_size": 64,
+      "gen_time_sec": 7.899806499481201,
+      "image_path": "results/proof/images/sdxl/w4a4_002.png"
+    }
+  ]
+}
