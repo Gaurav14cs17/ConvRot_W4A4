@@ -2,7 +2,7 @@
 
 PyTorch implementation of [ConvRot](https://arxiv.org/abs/2512.03673) — group-wise rotation-based quantization for W4A4 inference on Diffusion Transformers, without retraining.
 
-> **Paper**: [arXiv:2512.03673](https://arxiv.org/abs/2512.03673) &nbsp;|&nbsp; **Original repo**: [feice-huang/ConvRot](https://github.com/feice-huang/ConvRot) &nbsp;|&nbsp; (https://github.com/pytorch/ao/issues/4695)
+> **Paper**: [arXiv:2512.03673](https://arxiv.org/abs/2512.03673) &nbsp;|&nbsp; **Original repo**: [feice-huang/ConvRot](https://github.com/feice-huang/ConvRot) &nbsp;|
 
 ## FLUX.1-schnell benchmark (DiT, 12B)
 
